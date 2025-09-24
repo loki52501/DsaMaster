@@ -3,14 +3,6 @@
 TODAY I COMPLETED LEVENSHTEIN-DISTANCE ALGORITHM and middel node of linkedlist using Hare & turtle method. 
 YOU CAN VIEW MY DETAILED EXPLAINATION IN THE DP folder.
 
-### Project Summary
-A brief, one-to-two sentence description of the project. Clearly state its purpose and value.
-
-### Project Roadmap
-A high-level overview of the project's strategic goals and timeline, often broken down into quarters or phases.
-
-Here’s a super-short **README.md** layout—just the columns you asked for.
-
 # DSA Log
 
 *Use: Difficulty = Easy/Hard. Status = Done/Skipped.*
