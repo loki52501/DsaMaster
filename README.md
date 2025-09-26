@@ -10,8 +10,8 @@ YOU CAN VIEW MY DETAILED EXPLAINATION IN THE DP folder.
 | Date       | Problem Type | Difficulty | Status | Notes |
 | ---------- | ------------ | ---------- | ------ | ----- |
 | 2025-09-23 | Binary Search|super easy  |✅     |basic binary search finding the number|
-| 2025-09-24 |              |            |        |       |
-| 2025-09-25 |              |            |        |       |
+| 2025-09-24 |    Sorting   |super easy |   doing     |   Find three largest number in a unsorted array    |
+| 2025-09-25 |   Sorting   |super easy |   ✅     |   Find three largest number in a unsorted array            |            |        |       |
 | 2025-09-26 |              |            |        |       |
 | 2025-09-27 |              |            |        |       |
 | 2025-09-28 |              |            |        |       |
