@@ -14,7 +14,7 @@ I really want to use my programming skills in movie industry.
 | 2025-09-24 |    Sorting   |super easy |   doing     |   Find three largest number in a unsorted array    |
 | 2025-09-25 |   Sorting   |super easy |   ✅     |   Find three largest number in a unsorted array            |            |        |       |
 | 2025-09-26 |    Sorting   |Super easy|    ✅    |   sort using bubble sort algorithm   |
-| 2025-09-27 |              |            |        |       |
+| 2025-09-27 |      strings        | easy           |   ✅     |     caesar-cipher and compress string  |
 | 2025-09-28 |              |            |        |       |
 | 2025-09-29 |              |            |        |       |
 | 2025-09-30 |              |            |        |       |
@@ -32,3 +32,8 @@ Insertion sort: it's inserting a element into the sorted array by traversing thr
 Selection sort: it's assuming that there is two subset of an array, one is sorted and the other is unsorted, we insert element one by one from unsorted array to sorted array by finding out the min/max depending on asc/desc order. 
 
 everything here has the worst time complexity of O(n^2)
+
+# Strings
+
+1) caesar cipher -- easy
+2) encodestring -- i was struggling here though it's easy, all it took was a small change in if condition.
