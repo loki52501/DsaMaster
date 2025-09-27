@@ -1,6 +1,8 @@
 # DSA PROBLEMS I SOLVE DAILY
 
-Today 26/09/2025 , I completed bubble sort, one step close to working in Google or Meta.
+Today 26/09/2025 , I completed bubble sort, one step close to working in Google or Meta or Apple or Microsoft or Netflix.
+
+I really want to use my programming skills in movie industry.
 
 # DSA Log
 
