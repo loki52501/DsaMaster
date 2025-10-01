@@ -15,10 +15,10 @@ I really want to use my programming skills in movie industry.
 | 2025-09-25 |   Sorting   |super easy |   ✅     |   Find three largest number in a unsorted array            |            |        |       |
 | 2025-09-26 |    Sorting   |Super easy|    ✅    |   sort using bubble sort algorithm   |
 | 2025-09-27 |      strings        | easy           |   ✅     |     caesar-cipher and compress string  |
-| 2025-09-28 |              |            |        |       |
-| 2025-09-29 |              |            |        |       |
-| 2025-09-30 |              |            |        |       |
-| 2025-10-01 |              |            |        |       |
+| 2025-09-28 |      Strings       |    easy        | ✅       |      gets a list of common characters in all the arrays and returns it. |
+| 2025-09-29 |   had other works           |            |        |       |
+| 2025-09-30 |       wasted       |            |        |       |
+| 2025-10-01 |      strings        | easy           | ✅       |   checks if characters are present in document matches with characters, along with the number of occurence    |
 | 2025-10-02 |              |            |        |       |
 | 2025-10-03 |              |            |        |       |
 | 2025-10-04 |              |            |        |       |
