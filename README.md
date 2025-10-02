@@ -19,8 +19,8 @@ I really want to use my programming skills in movie industry.
 | 2025-09-29 |   had other works           |            |        |       |
 | 2025-09-30 |       wasted       |            |        |       |
 | 2025-10-01 |      strings        | easy           | ✅       |   checks if characters are present in document matches with characters, along with the number of occurence    |
-| 2025-10-02 |              |            |        |       |
-| 2025-10-03 |              |            |        |       |
+| 2025-10-02 |      strings        |  easy          | ✅       |   semordinalp    |
+| 2025-10-03 |      strings        |      easy      |   ✅     |    distinct character count   |
 | 2025-10-04 |              |            |        |       |
 | 2025-10-05 |              |            |        |       |
 | 2025-10-06 |              |            |        |       |
@@ -37,3 +37,5 @@ everything here has the worst time complexity of O(n^2)
 
 1) caesar cipher -- easy
 2) encodestring -- i was struggling here though it's easy, all it took was a small change in if condition.
+3) semordnilap -- finding out if string has same word in the reverse order in the list of strings, and returning it
+4) distinct char coutner == in a string, count the no of occurance of a character and sendiing the position of the first letter that is distinct.
