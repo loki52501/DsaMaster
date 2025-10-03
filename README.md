@@ -21,7 +21,7 @@ I really want to use my programming skills in movie industry.
 | 2025-10-01 |      strings        | easy           | ✅       |   checks if characters are present in document matches with characters, along with the number of occurence    |
 | 2025-10-02 |      strings        |  easy          | ✅       |   semordinalp    |
 | 2025-10-03 |      strings        |      easy      |   ✅     |    distinct character count   |
-| 2025-10-04 |        graph      |      easy      |  ✅      |    depth first search   |
+| 2025-10-04 |        graph  and Greedy algorithm    |      easy      |  ✅      |    depth first search and shortest wait time  |
 | 2025-10-05 |              |            |        |       |
 | 2025-10-06 |              |            |        |       |
 
