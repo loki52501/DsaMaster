@@ -43,3 +43,8 @@ everything here has the worst time complexity of O(n^2)
 # Greedy Algorithm
  
  First few problems were easy, since they were based on sorting, the last problem, with maximum profit was a little hard because it used dictionary method of finding the profit.. i lastly learned it in 8 math with permutation,, though it's a little different from that, but they use the same concept. assuming 7 days, and entering a loop to find the right point.
+
+ # Arrays
+
+ ### Problem5: 
+ I tried to implement 3 sum algorithm within O(n^2) using hare and rabbit method.. like head keeping track of the front, and tail keeping track of the end, it sorta of binary search tree, but in arrays. 
