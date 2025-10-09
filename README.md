@@ -48,3 +48,79 @@ everything here has the worst time complexity of O(n^2)
 
  ### Problem5: 
  I tried to implement 3 sum algorithm within O(n^2) using hare and rabbit method.. like head keeping track of the front, and tail keeping track of the end, it sorta of binary search tree, but in arrays. 
+# binary trees
+ ### problem of min height
+
+
+### Example Input
+
+`array = [1, 2, 3, 4, 5, 6, 7]`
+
+---
+
+### Recursive Stack & Returned Values
+
+```
+constructTree(0,6) → mid=3 → node(4)
+│
+├── treeLeft = constructTree(0,2) → mid=1 → node(2)
+│   │
+│   ├── treeLeft = constructTree(0,0) → mid=0 → node(1)
+│   │   ├── treeLeft  = constructTree(0,-1) → nullptr
+│   │   └── treeRight = constructTree(1,0)  → nullptr
+│   │   → returns node(1)
+│   │
+│   └── treeRight = constructTree(2,2) → mid=2 → node(3)
+│       ├── treeLeft  = constructTree(2,1) → nullptr
+│       └── treeRight = constructTree(3,2) → nullptr
+│       → returns node(3)
+│   │
+│   → node(2) now has left=node(1), right=node(3)
+│   → returns node(2)
+│
+└── treeRight = constructTree(4,6) → mid=5 → node(6)
+    │
+    ├── treeLeft = constructTree(4,4) → mid=4 → node(5)
+    │   ├── treeLeft  = constructTree(4,3) → nullptr
+    │   └── treeRight = constructTree(5,4) → nullptr
+    │   → returns node(5)
+    │
+    └── treeRight = constructTree(6,6) → mid=6 → node(7)
+        ├── treeLeft  = constructTree(6,5) → nullptr
+        └── treeRight = constructTree(7,6) → nullptr
+        → returns node(7)
+    │
+    → node(6) now has left=node(5), right=node(7)
+    → returns node(6)
+│
+→ node(4) now has left=node(2), right=node(6)
+→ returns node(4)
+```
+
+---
+
+### 🧩 Final BST Returned (`tree` from constructTree(0,6))
+
+```
+        4
+      /   \
+     2     6
+    / \   / \
+   1  3  5  7
+```
+
+---
+
+✅ **Summary (Return Flow)**
+
+* Each call creates a `tree` node with value = `array[mid]`.
+* Then gets:
+
+  * `treeLeft` from the recursive call on the left half,
+  * `treeRight` from the recursive call on the right half.
+* When both are returned, it connects:
+  `tree->left = treeLeft;`
+  `tree->right = treeRight;`
+  and then returns `tree` upward.
+
+So when recursion unwinds, the **entire BST** is formed from bottom to top.
