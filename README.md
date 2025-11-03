@@ -165,7 +165,11 @@ This is more summarized version"
 the problem was simple enough. since it had been a long time , i had my hardship relearning, but all in all, it was really eye opening . heap trees .. specifically minheaps, where the minimum element is the root and other elements is greater than its parents.
 
 builds the heap inplace from an input array. It computes the last internal node (firstparent) and walks backward toward the root, calling siftDown on each index; this bottom-up pass ensures every subtree satisfies the min-heap property without extra storage, giving an overall O(n) heap construction.
+
 heaptree.cpp:26 handles siftDown. Starting from the current node, it compares the two children (when both exist), picks the smaller (psi), and swaps if that child is smaller than the parent. Repeating this while a left child exists pushes large values down until the local ordering is fixed.
+
 heaptree.cpp:47 defines siftUp for inserts. It repeatedly checks the parent of the newly appended node and swaps if the child is smaller, climbing toward the root. Because each step halves the distance to the root, the work is O(log n).
+
 heaptree.cpp:58 through heaptree.cpp:74 expose heap operations: peek reads the root; remove swaps the root with the last element, shrinks the array, and siftDowns to restore order; insert appends the new value and siftUps it into place.
+
 heaptree.cpp:95 exercises the structure by building from a literal vector, deleting the minimum once, and printing the resulting heap.
