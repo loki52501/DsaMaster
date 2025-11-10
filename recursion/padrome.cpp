@@ -8,8 +8,7 @@ if(i>=word.size()/2)
 return true;
 if(word[i]!=word[word.size()-i-1])
 return false;
-
-return true &&pallindrome(i+1,word) ;
+return pallindrome(i+1, word);
 }
 int main()
 {
