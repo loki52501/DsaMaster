@@ -2,6 +2,10 @@
 #include <vector>
 using namespace std;
 
+int lcs(string , string , int ,int ,int );
+
+
+/*
 vector<char> longestCommonSubsequence(string str1, string str2) {
     int n1 = str1.length();
     int n2 = str2.length();
@@ -37,4 +41,32 @@ vector<char> longestCommonSubsequence(string str1, string str2) {
     cout << "Length of LCS: " << dp[n2][n1] << "\n";
     
     return lcs;
+}
+
+*/
+
+vector<char> longestCommonSubsequence(string str1, string str2) {
+  if(str1.size()==0 || str2.size()==0)
+  return {};
+   int res=lcs(str1,str2,0,0,0);
+   cout<<res<<endl;
+  
+  return {};
+}
+int lcs(string str1, string str2, int index1,int index2,int count)
+{
+    if(str1.size()<=index1 || str2.size()<=index2)
+    return count;
+  cout<<count<<" iteration "<<str1[index1]<<","<<str1.size()<<","<<index1<<" , "<<str2[index2]<<","<<index2<<endl;
+    if(str1[index1]==str2[index2])
+     return lcs(str1,str2,index1+1,index2+1,count+1);
+    int lc=lcs(str1,str2,index1,index2+1,count);
+    int rc=lcs(str1,str2,index1+1,index2,count);
+return max(lc,rc);
+}
+
+int main()
+{
+    auto s=longestCommonSubsequence("ZXVVYZW", "XKYKZPW");
+
 }
