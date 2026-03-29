@@ -6,7 +6,7 @@ vector<int> topologicalSort(vector<int> jobs, vector<vector<int>> deps) {
    unordered_map<int,int>jobcount;
    for(auto dep:deps)
    {
-        if(jobcount[dep[1]].count())
+        if(jobcount.count(dep[1]))
         jobcount[dep[1]]++;
         else
         jobcount[dep[1]]=1;
