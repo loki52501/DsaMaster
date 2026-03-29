@@ -19,7 +19,16 @@ vector<int> topologicalSort(vector<int> jobs, vector<vector<int>> deps) {
     }
     for(auto job:jobs)
     { 
-      order.
+        if(jobcount[job]==0)
+        order.push(job);
+
+    }
+    while(!order.empty())
+    {
+      res.push(order.front());
+      order.pop();
+      for(auto nextb:nextjob[job])
+      queue.push(nextb);
     }
 
   return {};
