@@ -31,10 +31,10 @@ vector<int> topologicalSort(vector<int> jobs, vector<vector<int>> deps) {
       for(auto nextb:nextjob[curr])
       {  jobcount[nextb]--;
   if(jobcount[nextb] == 0)
-        queue.push(nextb);
+        order.push(nextb);
           
     }
     }
 
-  return {};
+  return (res.size()==jobs.size())?res:vector<int>{};
 }
